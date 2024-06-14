@@ -1,0 +1,25 @@
+* { 
+    margin: 3px; 
+    padding: 0px; 
+    box-sizing: border-box;
+}
+
+h1 { 
+    color: blue; 
+}
+
+#app { 
+    width: 200px; 
+    height: 400px; 
+    border: 2px solid;
+    position: absolute;
+}
+
+.dnd { 
+    height: 100vh;
+    border: 2px solid;
+}
+
+my-card { 
+    background: green;
+}
