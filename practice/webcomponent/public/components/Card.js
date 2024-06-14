@@ -8,6 +8,7 @@ export default class Card extends HTMLElement {
     const title = this.getAttribute("title");
     const content = this.getAttribute("content");
     this.setAttribute('draggable', true); 
+    
     // shadow dom
 
     if (!this.shadowRoot) { 
