@@ -10,7 +10,6 @@ for (i = 0; i < myCard.length; i++) {
 
 function dragStartHandler(ev) {
   ev.dataTransfer.setData("text", ev.target.id);
-  ev.dataTransfer.dropEffect = "copy"; 
 }
 
 function dragOverHandler(ev) {
